@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="14dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp"
+    android:id="@+id/layout_item_weather"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatura"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clave"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capital"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvContinente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continente"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvPoblacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poblacion"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvLatlng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitud y longitud"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvFronteras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Países fronterizos"
+        android:textColor="@android:color/white" />
+</LinearLayout>
